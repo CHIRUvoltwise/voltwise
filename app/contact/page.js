@@ -22,16 +22,26 @@ export default function ContactPage() {
         </p>
 
         <div className="mt-8 rounded-2xl border border-slate-800 bg-slate-900 p-6">
-          <p className="text-slate-300">Email:</p>
+  <h2 className="text-2xl font-bold text-white">
+    Contact VoltWise
+  </h2>
 
-          <p className="mt-2 font-semibold text-emerald-400">
-            support@voltwise.com
-          </p>
+  <p className="mt-4 text-slate-300">
+    For business inquiries, partnerships, feedback, calculator corrections,
+    or support, contact us at:
+  </p>
 
-          <p className="mt-4 text-sm text-slate-500">
-            Replace this with your real email before launch.
-          </p>
-        </div>
+  <a
+    href="mailto:sunkalasujatha@gmail.com"
+    className="mt-4 inline-block text-lg font-semibold text-emerald-400 hover:underline"
+  >
+    sunkalasujatha@gmail.com
+  </a>
+
+  <p className="mt-4 text-sm text-slate-500">
+    VoltWise typically responds within 24–48 hours.
+  </p>
+</div>
       </section>
 
       <Footer />
