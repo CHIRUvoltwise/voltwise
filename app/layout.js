@@ -9,7 +9,7 @@ const inter = Inter({
 export const metadata = {
   metadataBase: new URL("https://voltwise-navy.vercel.app"),
   verification: {
-  google: " LJykuaCUA-V-hnr571uuLvJ61",
+  google: " LJykuaCUA-V-hnr571u",
 },
   title: {
     default: "VoltWise - Home Energy Savings Calculators",
