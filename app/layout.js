@@ -45,8 +45,7 @@ export default function RootLayout({ children }) {
         />
 
         <Script id="google-analytics">
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7693219127499281"
-     crossorigin="anonymous"></script>
+          
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -54,7 +53,10 @@ export default function RootLayout({ children }) {
 
             gtag('config', 'G-TLZ8L2LJZJ');
           `}
-        </Script>
+        
+       </Script>
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7693219127499281"
+     crossorigin="anonymous"></script>
       </head>
 
       <body className={inter.className}>
