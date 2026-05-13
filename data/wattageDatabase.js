@@ -1,0 +1,17 @@
+export const wattageDatabase = [
+  { appliance: "Ceiling Fan", watts: 75 },
+  { appliance: "LED Bulb", watts: 10 },
+  { appliance: "Tube Light", watts: 40 },
+  { appliance: "Television", watts: 120 },
+  { appliance: "Laptop", watts: 65 },
+  { appliance: "Desktop PC", watts: 250 },
+  { appliance: "Refrigerator", watts: 200 },
+  { appliance: "Washing Machine", watts: 500 },
+  { appliance: "Air Conditioner 1 Ton", watts: 1200 },
+  { appliance: "Air Conditioner 1.5 Ton", watts: 1800 },
+  { appliance: "Water Heater/Geyser", watts: 2000 },
+  { appliance: "Iron Box", watts: 1000 },
+  { appliance: "Microwave Oven", watts: 1200 },
+  { appliance: "Induction Stove", watts: 1800 },
+  { appliance: "EV Charger", watts: 3300 },
+];
